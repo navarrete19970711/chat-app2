@@ -9,21 +9,7 @@
 
 
 <div class="chat-screen">
-  <div class="messages">
-    <div class="chat-user">
-      <div class="chat-uesr-name">Tom</div>
-      <div class="time">2023/11/11(wed)12:45:30</div>
-    </div>
-    <div class="message">おはよう</div>
-  </div>
-
-  <div class="messages">
-    <div class="chat-user">
-      <div class="chat-uesr-name">Jelly</div>
-      <div class="time">2023/11/11(wed)12:50:30</div>
-    </div>
-    <div class="message">こんばんは</div>
-  </div>
+   <%= render partial: 'message', collection: @messages %>
 </div>
 
 
